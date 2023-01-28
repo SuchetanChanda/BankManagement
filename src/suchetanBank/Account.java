@@ -1,5 +1,10 @@
 package suchetanBank;
 
-public class Account {
-
+public abstract class Account {
+	String accountID;
+	String description;
+	double minimumBalance;
+	
+	public abstract void display();
+	
 }
